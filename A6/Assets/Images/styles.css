@@ -1,0 +1,190 @@
+body{
+    background-color:rgb(42 43 48);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100px;
+    font-size: 18px;
+    color: white;
+    margin: 0px;
+}
+
+/* Header section start here */
+header{
+    padding-left: 210px;
+    padding-top:50px;
+    padding-bottom: 60px;
+}
+header img{
+    width:10%;
+}
+.dashboard{
+    display:inline-block;
+    cursor: context-menu;
+    padding:20px;
+    height: 20px;
+    width: 20px;
+    background-color: aliceblue;
+    border: solid;
+    border-radius: 50%;
+    margin-left:1091px;
+}
+.dropdown-content{
+    position: absolute;
+    top:120px;
+    right:204px;
+    display: none;
+    background-color: aliceblue;
+    min-width: 220px;
+    z-index: 1;
+}
+.dropdown-content a {
+    display: block;
+    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+    
+}
+.dropdown-content a:hover {background-color:rgb(232, 232, 232);}
+.dashboard:hover .dropdown-content{
+    display: block;
+}
+/* Header section ends here */
+
+
+/* Whole Container */
+.container{
+    width:80%;
+    margin:auto;
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+.sizeTopLeft,.sizeMid,.sizeMiddle,.sizeTopRight{
+    position: absolute;
+    left:250px;
+    top:318px;
+    height:42px;
+    width:42px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: rgb(136 178 130);
+}
+.sizeTopLeft{
+    top:250px;
+}
+.sizeMid{
+    top:257px;
+}
+.sizeMiddle{
+    top:240px;
+}
+.sizeTopRight{
+    top:268px;
+}
+.subSize{
+    top:10px;
+    color: black;
+    font-size: 19px;
+    position: relative;
+    text-align: center;
+}
+.col{
+    position: relative;
+    display: inline-block;
+    width:20%;
+    padding:32px;
+    padding-bottom: 80px;
+}
+.backgrndTopLeft,.backgrndMid,.backgrndMiddle,.backgrndTopRight{
+    position:absolute;
+    background-color:rgb(36 37 42);
+    left: 30px;
+    top:-50px;
+    height:320px;
+    width: 280px;
+}
+.backgrndMid{
+    top:-40px;
+}
+.backgrndMiddle{
+    top:-54px;
+}
+.backgrndTopRight{
+    top:-29px;
+}
+.imageContainer{
+    position: absolute;
+    width: 40%;
+    height: 10px;
+}
+.starContainer{
+    position: relative;
+    top: -269px;
+    right:-235px;
+    width:25px;
+    height: 25px;
+}
+.jacket{
+    position: relative;
+    top:-20px;
+    left:57px;
+    width:55%;
+}
+.tshirt{
+    position: relative;
+    top:-24px;
+    left:32px;
+    width:72%;
+}
+img{
+    width:100%;
+    
+}
+.textBoxes{
+
+    color: grey;
+    margin-top: -18px;
+    padding-bottom:8px ;
+    padding-top: 38px;
+}
+.dressDesc{
+    font-size: 19px;
+    padding-bottom: 5px;
+    color: white;
+}
+.buttons{
+    margin-top: 7px;
+    background-color: rgb(37 37 37);
+    color: grey;
+    border: 2px solid grey;
+    padding:8px 10px 8px 10px;
+}
+
+/* Footer styles start here */
+.footer{
+    position: fixed;
+    background-color: black;
+}
+ul{
+    position: fixed;
+    list-style-type:none;
+    padding:25px 0px;
+    background-color: black;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    overflow: hidden;
+    width: 100%;
+    bottom:0px;
+    
+}
+li{
+    
+    display: inline-block;
+    color:white;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* End of footer */
