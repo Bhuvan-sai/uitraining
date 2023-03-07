@@ -1,0 +1,265 @@
+body{
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin:0;
+    padding:0;
+}
+img{
+    width:100%;
+}
+/********************** Head container for name,description and mail ID **************************/
+.headContainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width:82%;
+    margin: auto;
+}
+.mailid{
+    padding-top: 40px;
+    font-size:28px;
+    order:-1;
+    align-self:flex-end;
+    font-weight:400;
+    margin-right:26px;
+}
+.secondName{
+    font-weight: 900;
+}
+header{
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 172px;
+    margin-top:100px;
+    margin-bottom: 8px;
+}
+.description{
+    letter-spacing: 3px;
+    font-size: 52px;
+    font-weight: 100;
+    order:1;
+    margin-bottom: 124px;
+}
+.product{
+    color: #4a8ee0;
+}
+/*********************************** Head container ends here ************************************/
+
+.container{
+    display: flex;
+    width:100%;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.imageContainer{
+    width:428px;
+    margin: 15px;
+}
+.subtext{
+    color: #b8e986;
+    
+}
+.underDescription{
+    color: #cecece; 
+    font-size: 49px;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-weight: 900;
+}
+.logoContainer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 220px;
+}
+.logos{
+    width:8%;
+    margin:50px;
+    align-items: baseline;
+}
+#adidas{
+    width:80px;
+}
+#audi{
+    width:115px;
+}
+/********************************** Foot container ***********************************/
+.footContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 155px;
+}
+.lineBox{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 116px;
+}
+.footLineLeft{
+    margin-right: 25px;
+    height: 2px;
+    width:30px;
+    background-color: #d0cece;
+}
+.footLineRight{
+    height: 2px;
+    width:202px;
+    background-color: #d0cece
+}
+footer{
+    display: flex;
+    width: 18%;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 91px;
+}
+footer div{
+    position: relative;
+    display: inline;
+    height: 25px;
+    width:25px;
+    padding: 10px;
+    padding-top:7px;
+    border-radius: 100%;
+    border-color: #d0cece;
+    border-style: solid;
+    margin: auto;
+    background-color: #000000;
+    padding-bottom: 15px;
+    padding-right: 13px;
+} 
+.fa-brands{
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 130px;
+}
+.basketball{
+    padding-left: 7px;
+}
+.instagram{
+    padding-left: 10px;
+    padding-right:13px;
+}
+.fa-facebook-f{
+    padding-left:2px ;
+}
+.conclusion{
+    font-size: 19px;
+}
+
+/*********************************** Media queries starts here *********************************/
+
+@media all and (max-width:520px){
+    body{
+        text-align: center;
+    }
+    .headContainer{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+    }
+    header{
+        order:-1;
+        font-size: 56px;
+        letter-spacing: 0.5px;
+    }
+    .description{
+        order:0;
+        font-size:31px;
+        margin: 0px;
+        letter-spacing:1.2px;
+    }
+    .mailid{
+        align-self: center;
+        order:1;
+        font-size:16px;
+        margin:0px;
+        padding-top:10px;
+        margin-bottom: 80px;   
+    }
+    
+    .container{
+        width:100%;
+        display: flex;
+    }
+    .imageContainer{
+        width:100%;
+        margin: 8px; 
+    }
+    .underDescription{
+        font-size: 32px;
+        margin-top: 74px;
+    }
+    .logoContainer{
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 168px;
+    }
+    .logos{
+        width:29%;
+        margin:30px;
+    }
+    #audi{
+        width:24%;
+        padding-right: 15px;
+    }
+    #adidas{
+        width: 17%;
+        margin-left: 52px;
+    }
+    #lufthansa{
+        width:31%;
+    }
+    .footContainer{
+        margin-bottom: 58px;
+    }
+    .lineBox{
+        margin-bottom:46px;
+    }
+
+    .footLineLeft{
+        margin-right: 12px;
+        width:21px;
+    }
+    .footLineRight{
+        width:111px;
+        margin-left: 11px;
+    }
+    .instagram{
+        padding-left: 8px;
+        padding-right:8px;
+    }
+    footer{
+        width: 94%;
+        justify-content: space-between;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 60px;
+    }
+    footer div{
+        justify-content: center;
+        align-items: center;
+        height: 24px;
+        width:31px;
+        padding: 7px;
+        padding-bottom: 14px;
+        flex-wrap: nowrap;
+    }
+    .fa-brands{
+        margin-bottom: 70px;
+    }
+    .conclusion{
+        font-size: 22px;
+        letter-spacing: 0.5px;
+    }
+}
